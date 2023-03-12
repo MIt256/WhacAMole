@@ -5,16 +5,32 @@
     android:id="@+id/main_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/farmmainbg"
+    android:background="@drawable/farmmain"
     tools:context=".view.MenuFragment" >
 
     <TextView
         android:id="@+id/record_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/button_horizontal_margin"
         android:fontFamily="@font/custom_font"
         android:text="@string/record_text"
+        android:layout_marginTop="@dimen/margin_top_size"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_game_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rules" />
+
+    <TextView
+        android:id="@+id/rules"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/base_big_margin"
+        android:layout_marginTop="@dimen/button_horizontal_margin"
+        android:layout_marginEnd="@dimen/base_big_margin"
+        android:fontFamily="@font/custom_font"
+        android:gravity="center"
+        android:text="@string/rules_text"
         android:textColor="@color/white"
         android:textSize="@dimen/text_game_size"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,4 +55,5 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

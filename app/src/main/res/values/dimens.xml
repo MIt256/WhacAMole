@@ -9,4 +9,7 @@
     <dimen name="text_game_size">30sp</dimen>
     <dimen name="margin_top_size">32dp</dimen>
 
+    <dimen name="base_margin">8dp</dimen>
+    <dimen name="base_big_margin">16dp</dimen>
+
 </resources>

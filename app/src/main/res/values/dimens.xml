@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="corner_button_radius">80dp</dimen>
+    <dimen name="border_button_size">2dp</dimen>
+    <dimen name="button_height">50dp</dimen>
+    <dimen name="button_text_size">20sp</dimen>
+    <dimen name="button_horizontal_margin">64dp</dimen>
+
+    <dimen name="text_game_size">30sp</dimen>
+    <dimen name="margin_top_size">32dp</dimen>
+
+</resources>
